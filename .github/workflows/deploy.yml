@@ -25,15 +25,15 @@ jobs:
               -u ${{ github.actor }} --password-stdin
 
             # Zatrzymaj i usuń poprzedni kontener (jeśli istnieje)
-            docker stop my-app || true
-            docker rm my-app || true
+            docker stop my-app490104 || true
+            docker rm my-app490104 || true
 
             # Pobierz najnowszy obraz
             docker pull ghcr.io/${{ github.repository_owner }}/my-first_cicd:latest
 
             # Uruchom kontener na porcie studenta
             docker run -d \
-              --name my-app \
+              --name my-app490104 \
               --restart unless-stopped \
               -p 8${{ secrets.VPS_PORT_NUMBER }}:80 \
               ghcr.io/${{ github.repository_owner }}/my-first_cicd:latest
