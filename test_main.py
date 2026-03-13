@@ -7,7 +7,7 @@ client = TestClient(app)
 def test_hello():
     response = client.get("/")
     assert response.status_code == 200
-    assert response.json() == {"message": "czesc swiat nowy test"}
+    assert response.json() == {"message": "czesc swiat"}
 
 
 def test_add_positive_numbers():
