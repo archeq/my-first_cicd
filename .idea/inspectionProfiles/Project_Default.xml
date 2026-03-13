@@ -1,0 +1,24 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="jupyter" />
+          <option value="notebook" />
+          <option value="torchaudio" />
+          <option value="scikit-learn" />
+          <option value="scipy" />
+          <option value="google-api-python-client" />
+          <option value="google-auth" />
+          <option value="google-auth-httplib2" />
+          <option value="google-auth-oauthlib" />
+          <option value="requests" />
+          <option value="jupyterlab" />
+          <option value="beautifulsoup4" />
+          <option value="yt-dlp" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
